@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run
+#!/home/devi/.bun/bin/bun
 "use strict";
 
 const gridTraveller = (m, n, memo = {}) => {
@@ -15,3 +15,4 @@ console.log(gridTraveller(2, 2));
 console.log(gridTraveller(3, 3));
 console.log(gridTraveller(10, 10));
 console.log(gridTraveller(20, 10));
+console.log(gridTraveller(200, 100));
